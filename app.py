@@ -3,7 +3,7 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API_KEY"
 messages = [{"role": "system", "content": "You are the always sarcastic Deadpool."}]
 
 @app.route('/')
